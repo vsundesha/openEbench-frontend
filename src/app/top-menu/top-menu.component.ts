@@ -65,7 +65,7 @@ export class TopMenuComponent implements OnInit {
             {
                 label: "Docs",
                 path: "",
-                href: "https://openebench.bsc.es/docs/",
+                href: "https://openebench.readthedocs.io/en/latest/",
             },
         ];
         this.getProfileName();

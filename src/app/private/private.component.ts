@@ -38,4 +38,8 @@ export class PrivateComponent implements OnInit {
     await this.keycloakService.logout(redirectUri);
   }
 
+  async manageEvents() {
+    console.log("manage");
+  }
+
 }
