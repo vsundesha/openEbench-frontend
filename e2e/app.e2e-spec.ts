@@ -1,14 +1,14 @@
-import { AppPage } from './app.po';
+import { AppPage } from './app.po'
 
-describe('opeb App', () => {
-  let page: AppPage;
+describe('oeb App', () => {
+  let page: AppPage
 
   beforeEach(() => {
-    page = new AppPage();
-  });
+    page = new AppPage()
+  })
 
   it('should display welcome message', () => {
-    page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
-  });
-});
+    page.navigateTo()
+    expect(page.getParagraphText()).toEqual('Welcome to app!')
+  })
+})

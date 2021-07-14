@@ -822,7 +822,7 @@
 "on-headers@1.0.2","MIT","https://github.com/jshttp/on-headers"
 "once@1.4.0","ISC","https://github.com/isaacs/once"
 "onetime@2.0.1","MIT","https://github.com/sindresorhus/onetime"
-"opeb@0.0.0","UNLICENSED",""
+"oeb@0.0.0","UNLICENSED",""
 "opencollective-postinstall@2.0.2","MIT","https://github.com/opencollective/opencollective-postinstall"
 "opencollective@1.0.3","MIT","https://github.com/opencollective/opencollective-cli"
 "opn@4.0.2","MIT","https://github.com/sindresorhus/opn"
