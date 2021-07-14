@@ -19,6 +19,7 @@ import { initializer } from "./utils/app-init"
 import { StatisticsService } from "./shared/statistics.service"
 import { environment } from "../environments/environment"
 import { AppComponent } from "./app.component"
+import { ManageEventsComponent } from "./manage-events/manage-events.component"
 import { TopMenuComponent } from "./top-menu/top-menu.component"
 import { FooterComponent } from "./footer/footer.component"
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component"
@@ -44,6 +45,7 @@ export function createApollo(httpLink: HttpLink) {
     AboutComponent,
     PrivateComponent,
     FooterComponent,
+    ManageEventsComponent,
     PageNotFoundComponent,
     DocsComponent,
   ],

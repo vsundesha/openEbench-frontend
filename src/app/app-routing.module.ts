@@ -4,6 +4,7 @@ import { DashboardComponent } from './dashboard/dashboard.component'
 import { AboutComponent } from './about/about.component'
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component'
 import { StatisticsComponent } from './statistics/statistics.component'
+import { ManageEventsComponent } from './manage-events/manage-events.component'
 import { DocsComponent } from './docs/docs.component'
 import { PrivateComponent } from './private/private.component'
 import { AppAuthGuard } from './app.authguard'
@@ -19,7 +20,11 @@ export const routes: Routes = [
   { path: 'stats', component: StatisticsComponent, },
   { path: 'about', component: AboutComponent, },
   { path: 'docs', component: DocsComponent, },
-  { path: 'private', component: PrivateComponent, canActivate: [AppAuthGuard] },
+  { path: 'private', component: PrivateComponent, canActivate: [AppAuthGuard],
+    children: [
+      {path: 'private/manage-events', component: ManageEventsComponent}
+    ] 
+  },
   { path: '**', component: PageNotFoundComponent }
 ]
 
